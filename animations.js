@@ -61,5 +61,4 @@ $("#combinedResetBtn").click(function() {
         opacity: 1
     }, 600);
 });
-
 });
