@@ -25,7 +25,6 @@
     border-radius: 10px;
 }
 
-
 #sequenceBox {
     width: 80px;
     height: 80px;
@@ -35,7 +34,6 @@
     left: 20px;
     border-radius: 10px;
 }
-
 
 #combinedBox {
     width: 80px;
@@ -48,3 +46,33 @@
     border-radius: 10px;
 }
 
+.accordion {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+.accordion-btn {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    margin-top: 10px;
+    background-color: #d4c8ff;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-btn:hover {
+    background-color: #eeafff;
+}
+
+.accordion-content {
+    display: none;
+    background-color: #fff0ff;
+    padding: 18px;
+    border-radius: 0 0 10px 10px;
+    line-height: 1.6;
+}
