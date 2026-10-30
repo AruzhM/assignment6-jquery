@@ -5,3 +5,46 @@
     margin-top: 15px;
     max-width: 400px;
 }
+
+.animationArea {
+    position: relative;
+    height: 300px;
+    border: 2px solid #ffc8dd;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#animateBox {
+    width: 80px;
+    height: 80px;
+    background-color: #ff85b3;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+
+#sequenceBox {
+    width: 80px;
+    height: 80px;
+    background-color: #cdb4db;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+
+#combinedBox {
+    width: 80px;
+    height: 80px;
+    background-color: #a2d2ff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 1;
+    border-radius: 10px;
+}
+
